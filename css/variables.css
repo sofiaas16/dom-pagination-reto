@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "letra1";
+    src: url(../fonts/letraa/Encode_Sans/EncodeSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "letra2";
+    src: url(../fonts/letraa/Voltaire/Voltaire-Regular.ttf);
+}
+
+@font-face {
+    font-family: "letra3";
+    src: url(../fonts/letraa/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "letra4";
+    src: url(../fonts/letraa/Lalezar/Lalezar-Regular.ttf);
+}
+
+@font-face {
+    font-family: "letra5";
+    src: url(../fonts/Popins/Poppins/Poppins-Light.ttf);
+}

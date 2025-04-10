@@ -7,9 +7,11 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  /* font-size: ; */
+  font-family: "letra5";
+  background: linear-gradient(120deg, hsl(32, 100%, 65%), #f1f094);
+  color: #2d2d2d;
+  font-size: 14px;
+  padding: 20px;
 }
 
 .container {
@@ -17,8 +19,9 @@ body {
   height: 59vh;
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
-  scroll-behavior: auto;
+  border: 2px solid #ec7f1f;
+  background-color: #fffdfb;
+  border-radius: 2px;
 }
 
 .img-container img {
@@ -42,21 +45,21 @@ body {
 }
 
 .list ul {
-  list-style: none;   /* Quita los puntos */
-  display: flex;      /* Los pone en línea horizontal */
-  gap: 10px;          /* Espacio entre cada ítem */
+  list-style: none;  /* Para quitar los puntos que se hacen en la lista */
+  display: flex;    
+  gap: 10px;          
   padding: 0;
   margin: 0;
 }
 
 .list li a {
-  text-decoration: none; /* Quita el subrayado */
+  text-decoration: none; /* Quita el subrayado que se hace en la list de los nums*/
   padding: 8px 12px;
   background-color: #f0f0f0;
   border-radius: 5px;
   color: #333;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+
 }
 
 .list li a:hover {
