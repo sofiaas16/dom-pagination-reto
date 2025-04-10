@@ -6,7 +6,7 @@ const apiNaruto = async () => {
 
     // ALL
     const all = document.querySelector(".all");
-    data.characters.slice(0,8).forEach((item) => {
+    data.characters.slice(9,17).forEach((item) => {
         const divItem = document.createElement('div');
         divItem.innerHTML = `
             <div class="container">
